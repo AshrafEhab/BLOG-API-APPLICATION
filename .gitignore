@@ -1,0 +1,7 @@
+# This file is used to ignore files and directories that should not be tracked by Git.
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file
+.env
