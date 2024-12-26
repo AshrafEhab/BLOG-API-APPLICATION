@@ -4,9 +4,12 @@
 
 This document outlines the API endpoints for a blog application. The API provides functionalities for user management, post creation and interaction, and comment management.
 
-**Authentication**
+**Features**
 
-Authentication is handled using JWT tokens. Users must be logged in to access protected routes.
+* Authentication is handled using JWT tokens. Users must be logged in to access protected routes.
+* All Routes are tested and works as expected.
+* Error handling are implemented for all routes.
+
 
 **User Routes (API Prefix: `/user`)**
 
@@ -48,8 +51,4 @@ Authentication is handled using JWT tokens. Users must be logged in to access pr
 | PUT | `/comment/edit/:id` | Edit a comment | Required |
 | DELETE | `/comment/delete/:id` | Delete a comment | Required |
 
-**Additional Notes**
 
-* Error handling should be implemented for all routes.
-* Consider using a versioning strategy for the API.
-* Refer to the actual code for detailed implementation and validation logic.
